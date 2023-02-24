@@ -669,7 +669,7 @@ footer ul {
 }
 
 footer a {
-    color: #eee;
+    color: rgb(128, 128, 128);
     font-size: 14px;
 }
 
@@ -695,4 +695,40 @@ footer a {
 
 .akt {
     border-radius: 10px 10px;
+}
+
+/* Impressum */
+
+.impressumcontainer {
+
+    width: 800px;
+    height: 600px;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background: linear-gradient(#0000008d, #00000079), url("../img/IMG_1143.jpg") center center/cover no-repeat;
+
+}
+
+.impressuminhalt {
+    width: 100%;
+    border: solid 2px #eee;
+    margin: 10px;
+    padding: 50px;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.impressuminhalt p {
+    font-size: 18px;
+}
+
+.impressuminhalt h2 {
+    font-size: 28px;
+    font-family: Josefin-Sans;
+    color: var(--fucsia);
 }
